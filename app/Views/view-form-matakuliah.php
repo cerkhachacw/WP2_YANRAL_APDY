@@ -46,7 +46,7 @@
                 <tr>
                     <td style="color: red; ">
                         <?php if(isset($validation)) : ?>
-                            <?= $validation->listErrors() ?>    
+                            <?= $validation->listErrors() ?>
                         <?php endif; ?>
                     </td>
                 </tr>
